@@ -1,0 +1,59 @@
+body{
+	color:#86718a; /* color permet de changer la couleur de notre tecte. On pourra utiliser la nom anglais d'une couleur, son code hexadécimal #, ou encore le code RGB. */
+	background-color:#cfffff; /* Background-color permet de changer la couleur de fond de nos éléments. */
+	font-family:serif; /* Font'family permet de changer la police de notre site, c'est-à-dire le style d'écriture. On peut choisir entre plusieurs valeurs : serif, sans-serif, cursive, monospace et fantasia. */
+	font-size:16px; /* Font-size permet de modifier la taille des lettres. */
+	line-height:20px; /* Line-height permet de modifier l'espace qu'il y a entre deux lignes de textes. */
+	text-align:center; /* Text-align permet de changer la position du texte en le mettant au centre avec la valeur center, à gauche avec left, ou à droite avec right. */
+}
+
+h1{
+	color:red;
+	font-family:cursive;
+	font-size:35px;
+	font-variant:small-caps; /* Font-variant, avec pour valeur small-caps, permet de transformer toutes les lettres en petites majuscules. */
+	letter-spacing:1px; /* Pour pouvoir augmenter l'espace entre les lettres, on utilise la propriété letter spacing. */
+}
+
+h2{
+	color:red;
+	font-weight:lighter; /* Font-weight permet de modifier l'épaisseur des lettres, lighter pour les affiner, et bolder pour les épaissir. */
+}
+
+a{
+	color:green;
+	text-decoration:none; /* Le code text-decoration avec pour valeur none permet de supprimer la barre de soulignement présente en dessous du format par défaut des liens. */
+}
+
+a:hover{ /* Grâce à cette sélection, il est possible de modifier la couleur de notre lien lorsque l'on passe dessus */
+	color:blue;
+}
+
+div{
+	border:solid;
+	margin:25px 300px; /* Margin correspond à la marge extérieure. */
+	padding:15px; /* Padding correspond à la marge intérieure. */
+	border-radius:15px; /* Border radius permet d'arrondir les angles de nos bords */
+	box-shadow:10px 10px 20px; /* Box-shadow permet d'ajouter une ombre à nos élements. */
+}
+
+iframe{
+	border-radius:10px;
+}
+
+img{
+	border-radius:10px;
+}
+
+.vert{
+	color:red;
+}
+
+.bleu{
+	color:red;
+}
+
+ul{
+	text-align: center;
+	list-style-position: inside;
+}
